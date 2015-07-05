@@ -1,8 +1,6 @@
 #!/usr/bin/env python
 
 from setuptools import setup, find_packages
-from pip.req import parse_requirements
-install_reqs = parse_requirements('requirements.pip')
 
 def get_version(filename):
     import re
@@ -14,9 +12,10 @@ setupopts = dict(
     name="automate-rpc",
     version=get_version('automate_rpc/__init__.py'),
     packages=find_packages(),
-
-    install_requires=[str(ir.req) for ir in install_reqs],
-
+    install_requires=[
+        "automate==0.9.1",
+        "automate-wsgi==0.9.1",
+        "wsgi-xmlrpc==0.2.8"],
     author="Tuomas Airaksinen",
     author_email="tuomas.airaksinen@gmail.com",
     description="Remote Procedure Call Support for Automate",
