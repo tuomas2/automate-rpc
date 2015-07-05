@@ -22,7 +22,7 @@ setupopts = dict(
     long_description="This Automate extension provides XmlRPC API for external application",
     license="GPL",
     keywords="automation, GPIO, Raspberry Pi, RPIO, traits",
-    url="http://github.com/tuomas2/automate_webui",
+    url="http://github.com/tuomas2/automate-rpc",
     entry_points={'automate.extension': [
             'rpc = automate_rpc:extension_classes'
     ]},
