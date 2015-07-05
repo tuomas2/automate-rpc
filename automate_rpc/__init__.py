@@ -16,6 +16,15 @@
 # You should have received a copy of the GNU General Public License
 # along with automate_arduino.  If not, see <http://www.gnu.org/licenses/>.
 
+__author__ = "Tuomas Airaksinen"
+__copyright__ = "Copyright 2015, Tuomas Airaksinen"
+__credits__ = []
+__license__ = "GPL"
+__version__ = '0.9'
+__maintainer__ = "Tuomas Airaksinen"
+__email__ = "tuomas.airaksinen@gmail.com"
+__status__ = "Beta"
+
 from .rpc import RpcService
 
 extension_classes = [RpcService]
