@@ -11,7 +11,7 @@ def get_version(filename):
         return metadata['version']
 
 setupopts = dict(
-    name="automate_rpc",
+    name="automate-rpc",
     version=get_version('automate_rpc/__init__.py'),
     packages=find_packages(),
 
