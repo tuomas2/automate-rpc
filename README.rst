@@ -1,9 +1,8 @@
 Remote Procedure Call Support for Automate
 ==========================================
 
-Automate is a general purpose Python automatization library.
 Read the documentation at
-http://python-automate.readthedocs.org/en/latest/official_extensions/rpc.html
+`Readthedocs.org <http://python-automate.readthedocs.org/en/latest/official_extensions/rpc.html>`_
 
 Licence
 -------
