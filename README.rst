@@ -4,6 +4,19 @@ Remote Procedure Call Support for Automate
 Read the documentation at
 `Readthedocs.org <http://python-automate.readthedocs.org/en/latest/official_extensions/rpc.html>`_
 
+Installation
+------------
+
+Install from Pypi::
+
+    pip install automate-rpc
+
+Optionally, you could install also by cloning GIT repository and installing manually::
+
+    git clone https://github.com/tuomas2/automate-rpc.git
+    cd automate-rpc
+    ./setup.py install
+
 Licence
 -------
 
