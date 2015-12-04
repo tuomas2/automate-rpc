@@ -16,6 +16,7 @@
 # You should have received a copy of the GNU General Public License
 # along with automate-rpc.  If not, see <http://www.gnu.org/licenses/>.
 
+from builtins import object
 import wsgi_xmlrpc
 from traits.api import CSet, Str, Any
 
@@ -45,7 +46,7 @@ class ExternalApi(object):
         """
             Set statuses from a dictionary of format ``{name: status}``
         """
-        for name, value in statusdict.iteritems():
+        for name, value in statusdict.items():
             getattr(self.system, name).status = value
         return True
 
