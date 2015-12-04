@@ -18,7 +18,7 @@
 
 from __future__ import unicode_literals
 from builtins import object
-import wsgi_xmlrpc
+from . import wsgi_xmlrpc
 from traits.api import CSet, Str, Any
 
 from automate_wsgi.abstractwsgi import TornadoService
