@@ -12,7 +12,11 @@
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
 
-from xmlrpc.server import SimpleXMLRPCDispatcher
+import sys
+if sys.version_info < (3, 0):
+    from SimpleXMLRPCServer import SimpleXMLRPCDispatcher
+else:
+    from xmlrpc.server import SimpleXMLRPCDispatcher
 import logging
 
 logger = logging.getLogger(__name__)
