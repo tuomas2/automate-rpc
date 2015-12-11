@@ -1,6 +1,5 @@
 #!/usr/bin/env python
 
-from __future__ import unicode_literals
 from setuptools import setup, find_packages
 
 def get_version(filename):
@@ -15,8 +14,8 @@ setupopts = dict(
     packages=find_packages(),
     install_requires=[
         "automate>=0.9.3,<0.10",
-        "automate-wsgi>=0.9.2,<0.10 ",
-        "wsgi-xmlrpc==0.2.8"],
+        "automate-wsgi>=0.9.3,<0.10 ",
+        ],
     author="Tuomas Airaksinen",
     author_email="tuomas.airaksinen@gmail.com",
     description="Remote Procedure Call Support for Automate",
